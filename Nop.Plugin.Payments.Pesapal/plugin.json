@@ -3,7 +3,7 @@
   "FriendlyName": "Pesapal online",
   "SystemName": "Payments.Pesapal",
   "Version": "1.0.0",
-  "SupportedVersions": [ "4.70" ],
+  "SupportedVersions": [ "4.60" ],
   "Author": "Robert Manegene",
   "DisplayOrder": -1,
   "FileName": "Nop.Plugin.Payments.Pesapal.dll",

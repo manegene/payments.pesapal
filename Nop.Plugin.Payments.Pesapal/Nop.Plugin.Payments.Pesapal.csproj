@@ -2,11 +2,11 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Copyright>CopyRight © Robert Manegene, 2023</Copyright>
-    <Company>rmanegene@kilimanimums.ke</Company>
+    <Company>habahabamall.com</Company>
     <Authors>Robert Manegene</Authors>
     <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
     <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
-    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryUrl>https://github.com/manegene/payments.pesapal.git</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <OutputPath>..\..\Presentation\Nop.Web\Plugins\Payments.Pesapal</OutputPath>
     <OutDir>$(OutputPath)</OutDir>

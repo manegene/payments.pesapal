@@ -56,15 +56,15 @@ namespace Nop.Plugin.Payments.Pesapal.Services
         /// A task that represents the asynchronous operation
         /// The task result contains the view component result
         /// </returns>
-        public async Task<IViewComponentResult> InvokeAsync()
+        public IViewComponentResult Invoke()
         {
-           
+
 
 
             //prepare order GUID
-            var paymentRequest = new PostProcessPaymentRequest();
-
-            await HttpContext.Session.SetAsync(Pesapalpaymentdefaults.SessionName, paymentRequest);
+            // var paymentRequest = new PostProcessPaymentRequest();
+            //await new Task(() => { HttpContext.Session.Set(Pesapalpaymentdefaults.SessionName, paymentRequest); }).ConfigureAwait(true);
+            //await HttpContext.Session.SetAsync(Pesapalpaymentdefaults.SessionName, paymentRequest);
 
             return View("~/Plugins/Payments.Pesapal/Views/PaymentInfo.cshtml");
         }
